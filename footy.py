@@ -1,6 +1,5 @@
 import requests
 import json
-import re
 from tkinter import *
 from tkinter import ttk, messagebox, PhotoImage
 from PIL import Image, ImageTk
@@ -50,7 +49,7 @@ def input_check(t):
         return False
 
 
-# Team (my ID 680130)
+# Team
 def team_get(t):
     try:
         team = requests.get(
