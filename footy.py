@@ -9,7 +9,7 @@ root.option_add("*font", "lato 10")
 root.bind("<Return>", lambda event: go_click())
 s = ttk.Style()
 s.theme_use("clam")
-s.configure("TButton", background = "skyblue1", foreground = "white")
+s.configure("TButton", background = "DeepSkyBlue", foreground = "white")
 
 # base_url = "https://fantasy.premierleague.com/api/"
 
@@ -138,92 +138,92 @@ def click(event):
 # Team ID Label
 teamID_label = ttk.Label(root, text="Team ID:")
 teamID_label.grid(column=0, row=2, padx=5, pady=5, sticky=W)
-teamID_label.config(background="skyblue1", foreground="white")
+teamID_label.config(background="DeepSkyBlue", foreground="white")
 
 # Team ID result Label
 teamID_result = ttk.Label(root, text="")
 teamID_result.grid(column=1, row=2, padx=5, pady=5, sticky=W)
-teamID_result.config(background="skyblue1", foreground="white")
+teamID_result.config(background="DeepSkyBlue", foreground="white")
 
 # Team Name Label
 team_name_label = ttk.Label(root, text="Team Name:")
 team_name_label.grid(column=0, row=3, padx=5, pady=5, sticky=W)
-team_name_label.config(background="skyblue1", foreground="white")
+team_name_label.config(background="DeepSkyBlue", foreground="white")
 
 # Team Name result Label
 team_name_result = ttk.Label(root, text="")
 team_name_result.grid(column=1, row=3, padx=5, pady=5, sticky=W)
-team_name_result.config(background="skyblue1", foreground="white")
+team_name_result.config(background="DeepSkyBlue", foreground="white")
 
 # Name Label
 name_label = ttk.Label(root, text="Name:")
 name_label.grid(column=0, row=4, padx=5, pady=5, sticky=W)
-name_label.config(background="skyblue1", foreground="white")
+name_label.config(background="DeepSkyBlue", foreground="white")
 
 # Name result label
 name_result = ttk.Label(root, text="")
 name_result.grid(column=1, row=4, padx=5, pady=5, sticky=W)
-name_result.config(background="skyblue1", foreground="white")
+name_result.config(background="DeepSkyBlue", foreground="white")
 
 # Score Label
 score_label = ttk.Label(root, text="Score:")
 score_label.grid(column=0, row=5, padx=5, pady=5, sticky=W)
-score_label.config(background="skyblue1", foreground="white")
+score_label.config(background="DeepSkyBlue", foreground="white")
 
 # Name result label
 score_result = ttk.Label(root, text="")
 score_result.grid(column=1, row=5, padx=5, pady=5, sticky=W)
-score_result.config(background="skyblue1", foreground="white")
+score_result.config(background="DeepSkyBlue", foreground="white")
 
 # Rank Label
 rank_label = ttk.Label(root, text="Current Rank:")
 rank_label.grid(column=0, row=6, padx=5, pady=5, sticky=W)
-rank_label.config(background="skyblue1", foreground="white")
+rank_label.config(background="DeepSkyBlue", foreground="white")
 
 # Rank result label
 rank_result = ttk.Label(root, text="")
 rank_result.grid(column=1, row=6, padx=5, pady=5, sticky=W)
-rank_result.config(background="skyblue1", foreground="white")
+rank_result.config(background="DeepSkyBlue", foreground="white")
 
 # GW Label
 gw_label = ttk.Label(root, text="Gameweek:")
 gw_label.grid(column=0, row=7, padx=5, pady=5, sticky=W)
-gw_label.config(background="skyblue1", foreground="white")
+gw_label.config(background="DeepSkyBlue", foreground="white")
 
 # GW result label
 gw_result = ttk.Label(root, text="")
 gw_result.grid(column=1, row=7, padx=5, pady=5, sticky=W)
-gw_result.config(background="skyblue1", foreground="white")
+gw_result.config(background="DeepSkyBlue", foreground="white")
 
 # GW Score Label
 gw_score_label = ttk.Label(root, text="Gameweek Score:")
 gw_score_label.grid(column=0, row=8, padx=5, pady=5, sticky=W)
-gw_score_label.config(background="skyblue1", foreground="white")
+gw_score_label.config(background="DeepSkyBlue", foreground="white")
 
 # GW score result label
 gw_score_result = ttk.Label(root, text="")
 gw_score_result.grid(column=1, row=8, padx=5, pady=5, sticky=W)
-gw_score_result.config(background="skyblue1", foreground="white")
+gw_score_result.config(background="DeepSkyBlue", foreground="white")
 
 # Team Value Label
 team_value_label = ttk.Label(root, text="Team Value:")
 team_value_label.grid(column=0, row=9, padx=5, pady=5, sticky=W)
-team_value_label.config(background="skyblue1", foreground="white")
+team_value_label.config(background="DeepSkyBlue", foreground="white")
 
 # Team Value result label
 team_value_result = ttk.Label(root, text="")
 team_value_result.grid(column=1, row=9, padx=5, pady=5, sticky=W)
-team_value_result.config(background="skyblue1", foreground="white")
+team_value_result.config(background="DeepSkyBlue", foreground="white")
 
 # In the Bank Label
 bank_label = ttk.Label(root, text="In the Bank:")
 bank_label.grid(column=0, row=10, padx=5, pady=5, sticky=W)
-bank_label.config(background="skyblue1", foreground="white")
+bank_label.config(background="DeepSkyBlue", foreground="white")
 
 # In the Bank result label
 bank_result = ttk.Label(root, text="")
 bank_result.grid(column=1, row=10, padx=5, pady=5, sticky=W)
-bank_result.config(background="skyblue1", foreground="white")
+bank_result.config(background="DeepSkyBlue", foreground="white")
 
 widgets = {
     "teamID": teamID_result,
@@ -276,7 +276,7 @@ root.geometry(f"{window_width}x{window_height}+{center_x}+{center_y}")
 root.title("FPL Lookup")
 
 # Set window colour
-root.configure(background="skyblue1")
+root.configure(background="DeepSkyBlue")
 
 # Set window icon
 root.iconbitmap("pl_logo.ico")
@@ -290,7 +290,7 @@ resize_img = img.resize((290, 83), Image.ADAPTIVE)
 banner = ImageTk.PhotoImage(resize_img)
 choose_label = ttk.Label(root, image=banner)
 choose_label.grid(column=0, row=0, columnspan=3, padx=3, pady=3)
-choose_label.config(background="skyblue1", foreground="gray4")
+choose_label.config(background="DeepSkyBlue", foreground="gray4")
 
 
 root.mainloop()
