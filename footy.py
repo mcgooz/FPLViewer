@@ -128,11 +128,6 @@ def reset_click():
 def click(event):
     team_input_box.delete(0, END)
 
-#def on_closing():
-    #root.destroy()
-
-#root.protocol("WM_DELETE_WINDOW", on_closing)
-
 ## Labels
 
 # Team ID Label
