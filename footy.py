@@ -84,7 +84,8 @@ class GUI_update:
             elif stat == "score":
                 widget.config(text=self.team_info["summary_overall_points"])
             elif stat == "rank":
-                widget.config(text=self.team_info["summary_overall_rank"])
+                rank = self.team_info["summary_overall_rank"]
+                widget.config(text=f"{rank:,}")
             elif stat == "gw":
                 widget.config(text=self.team_info["current_event"])
             elif stat == "gw_score":
